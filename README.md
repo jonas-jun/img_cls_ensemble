@@ -3,7 +3,7 @@
 - CLIP('RN50x16') 모델의 vision 부분으로 768 dim의 feature 벡터들을 추출한 후
 - feature 벡터와 label을 활용하여 SVM(kernel='rbf') 모델을 학습시켜
 - multi-class Image Classification을 진행하였습니다.
-
+- feature의 dimension이 커질수록 sparse한 경향이 있어 SVM 분류에서 성능이 떨어질 수 있어, 768 dim의 feature extractor를 선택하였습니다.
 
 ## DATASET
 [Kaggle Intel Image Classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
