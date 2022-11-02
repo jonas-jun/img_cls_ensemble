@@ -8,6 +8,6 @@
 ## DATASET
 [Kaggle Intel Image Classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
 - class: buildings, forest, glacier, mountain, sea, street
-- test accuracy: 95.06
+- **test accuracy: 95.06** (공개된 notebook code에서는 95% 이상의 acc를 보이는 경우가 흔치 않았습니다)
 - macro f1: 95.15
 - 데이터셋은 Kaggle에서 다운로드 후 dataset 폴더 하위에 'seg_train', 'seg_test'를 unzip 하시면 됩니다.
